@@ -1,0 +1,10 @@
+C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\Core.Business\bin\Debug\Core.Business.dll
+C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\Core.Business\bin\Debug\Core.Business.pdb
+C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\Core.Business\bin\Debug\Core.Data.dll
+C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\Core.Business\bin\Debug\Core.Interfaces.dll
+C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\Core.Business\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\Core.Business\bin\Debug\Core.Data.pdb
+C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\Core.Business\bin\Debug\Core.Interfaces.pdb
+C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\Core.Business\obj\Debug\Core.Business.csprojResolveAssemblyReference.cache
+C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\Core.Business\obj\Debug\Core.Business.dll
+C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\Core.Business\obj\Debug\Core.Business.pdb

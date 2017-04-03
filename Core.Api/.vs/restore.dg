@@ -1,0 +1,5 @@
+#:C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\src\Core.Api\Core.Api.xproj
+C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\src\Core.Api\Core.Api.xproj|C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\Core.Business\Core.Business.csproj
+C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\Core.Business\Core.Business.csproj|C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\Core.Interfaces\Core.Interfaces.csproj
+C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\Core.Business\Core.Business.csproj|C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\Core.Data\Core.Data.csproj
+C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\Core.Data\Core.Data.csproj|C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\Core.Interfaces\Core.Interfaces.csproj

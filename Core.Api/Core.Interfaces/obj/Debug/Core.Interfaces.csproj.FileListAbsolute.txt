@@ -1,0 +1,6 @@
+C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\Core.Interfaces\bin\Debug\Core.Interfaces.dll.config
+C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\Core.Interfaces\bin\Debug\Core.Interfaces.dll
+C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\Core.Interfaces\bin\Debug\Core.Interfaces.pdb
+C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\Core.Interfaces\obj\Debug\Core.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\Core.Interfaces\obj\Debug\Core.Interfaces.dll
+C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\Core.Interfaces\obj\Debug\Core.Interfaces.pdb
