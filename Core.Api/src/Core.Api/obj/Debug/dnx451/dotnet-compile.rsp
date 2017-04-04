@@ -1,5 +1,5 @@
---temp-output:C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\src\Core.Api\obj\Debug\dnx451\
---out:C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\src\Core.Api\bin\Debug\dnx451\Core.Api.exe
+--temp-output:C:\Users\AlineHL\Desktop\AspNetCore\bootstrapAspNet\Core.Api\src\Core.Api\obj\Debug\dnx451\
+--out:C:\Users\AlineHL\Desktop\AspNetCore\bootstrapAspNet\Core.Api\src\Core.Api\bin\Debug\dnx451\Core.Api.exe
 --define:DEBUG
 --define:TRACE
 --define:DNX451
@@ -56,6 +56,7 @@
 --reference:C:\Users\AlineHL\.nuget\packages\Microsoft.AspNetCore.Routing.Abstractions\1.0.1\lib\net451\Microsoft.AspNetCore.Routing.Abstractions.dll
 --reference:C:\Users\AlineHL\.nuget\packages\Microsoft.AspNetCore.Server.IISIntegration\1.0.0\lib\net451\Microsoft.AspNetCore.Server.IISIntegration.dll
 --reference:C:\Users\AlineHL\.nuget\packages\Microsoft.AspNetCore.Server.Kestrel\1.0.1\lib\net451\Microsoft.AspNetCore.Server.Kestrel.dll
+--reference:C:\Users\AlineHL\.nuget\packages\Microsoft.AspNetCore.StaticFiles\1.0.0\lib\net451\Microsoft.AspNetCore.StaticFiles.dll
 --reference:C:\Users\AlineHL\.nuget\packages\Microsoft.AspNetCore.WebUtilities\1.0.0\lib\net451\Microsoft.AspNetCore.WebUtilities.dll
 --reference:C:\Users\AlineHL\.nuget\packages\Microsoft.CodeAnalysis.Common\1.3.0\lib\net45\Microsoft.CodeAnalysis.dll
 --reference:C:\Users\AlineHL\.nuget\packages\Microsoft.CodeAnalysis.CSharp\1.3.0\lib\net45\Microsoft.CodeAnalysis.CSharp.dll
@@ -75,6 +76,7 @@
 --reference:C:\Users\AlineHL\.nuget\packages\Microsoft.Extensions.DiagnosticAdapter\1.0.0\lib\netstandard1.1\Microsoft.Extensions.DiagnosticAdapter.dll
 --reference:C:\Users\AlineHL\.nuget\packages\Microsoft.Extensions.FileProviders.Abstractions\1.0.0\lib\netstandard1.0\Microsoft.Extensions.FileProviders.Abstractions.dll
 --reference:C:\Users\AlineHL\.nuget\packages\Microsoft.Extensions.FileProviders.Composite\1.0.0\lib\netstandard1.0\Microsoft.Extensions.FileProviders.Composite.dll
+--reference:C:\Users\AlineHL\.nuget\packages\Microsoft.Extensions.FileProviders.Embedded\1.0.0\lib\netstandard1.0\Microsoft.Extensions.FileProviders.Embedded.dll
 --reference:C:\Users\AlineHL\.nuget\packages\Microsoft.Extensions.FileProviders.Physical\1.0.0\lib\net451\Microsoft.Extensions.FileProviders.Physical.dll
 --reference:C:\Users\AlineHL\.nuget\packages\Microsoft.Extensions.FileSystemGlobbing\1.0.0\lib\net451\Microsoft.Extensions.FileSystemGlobbing.dll
 --reference:C:\Users\AlineHL\.nuget\packages\Microsoft.Extensions.Globalization.CultureInfoCache\1.0.0\lib\netstandard1.1\Microsoft.Extensions.Globalization.CultureInfoCache.dll
@@ -92,6 +94,16 @@
 --reference:C:\Users\AlineHL\.nuget\packages\Microsoft.Extensions.WebEncoders\1.0.0\lib\netstandard1.0\Microsoft.Extensions.WebEncoders.dll
 --reference:C:\Users\AlineHL\.nuget\packages\Microsoft.Net.Http.Headers\1.0.0\lib\netstandard1.1\Microsoft.Net.Http.Headers.dll
 --reference:C:\Users\AlineHL\.nuget\packages\Newtonsoft.Json\9.0.1\lib\net45\Newtonsoft.Json.dll
+--reference:C:\Users\AlineHL\.nuget\packages\Serilog\2.4.0\lib\net45\Serilog.dll
+--reference:C:\Users\AlineHL\.nuget\packages\Serilog.Extensions.Logging\1.4.0\lib\net45\Serilog.Extensions.Logging.dll
+--reference:C:\Users\AlineHL\.nuget\packages\Serilog.Formatting.Compact\1.0.0\lib\net45\Serilog.Formatting.Compact.dll
+--reference:C:\Users\AlineHL\.nuget\packages\Serilog.Sinks.File\3.2.0\lib\net45\Serilog.Sinks.File.dll
+--reference:C:\Users\AlineHL\.nuget\packages\Serilog.Sinks.PeriodicBatching\2.1.0\lib\net45\Serilog.Sinks.PeriodicBatching.dll
+--reference:C:\Users\AlineHL\.nuget\packages\Serilog.Sinks.RollingFile\3.3.0\lib\net45\Serilog.Sinks.RollingFile.dll
+--reference:C:\Users\AlineHL\.nuget\packages\Serilog.Sinks.Seq\3.2.0\lib\net45\Serilog.Sinks.Seq.dll
+--reference:C:\Users\AlineHL\.nuget\packages\Swashbuckle.Swagger\6.0.0-beta901\lib\net451\Swashbuckle.Swagger.dll
+--reference:C:\Users\AlineHL\.nuget\packages\Swashbuckle.SwaggerGen\6.0.0-beta901\lib\net451\Swashbuckle.SwaggerGen.dll
+--reference:C:\Users\AlineHL\.nuget\packages\Swashbuckle.SwaggerUi\6.0.0-beta901\lib\net451\Swashbuckle.SwaggerUi.dll
 --reference:C:\Users\AlineHL\.nuget\packages\System.Buffers\4.0.0\lib\netstandard1.1\System.Buffers.dll
 --reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\Facades\System.Collections.dll
 --reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\Facades\System.Collections.Concurrent.dll
@@ -124,9 +136,9 @@
 --reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\Facades\System.Threading.dll
 --reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\Facades\System.Threading.Tasks.dll
 --reference:C:\Users\AlineHL\.nuget\packages\System.Threading.Tasks.Extensions\4.0.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll
---reference:C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\Core.Business\bin\Debug\Core.Business.dll
---reference:C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\Core.Data\bin\Debug\Core.Data.dll
---reference:C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\Core.Interfaces\bin\Debug\Core.Interfaces.dll
+--reference:C:\Users\AlineHL\Desktop\AspNetCore\bootstrapAspNet\Core.Api\Core.Business\bin\Debug\Core.Business.dll
+--reference:C:\Users\AlineHL\Desktop\AspNetCore\bootstrapAspNet\Core.Api\Core.Data\bin\Debug\Core.Data.dll
+--reference:C:\Users\AlineHL\Desktop\AspNetCore\bootstrapAspNet\Core.Api\Core.Interfaces\bin\Debug\Core.Interfaces.dll
 --reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\mscorlib.dll
 --reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\System.dll
 --reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\System.Core.dll
@@ -134,9 +146,11 @@
 --reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\System.Xml.dll
 --reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\System.Xml.Linq.dll
 --reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\System.ComponentModel.DataAnnotations.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\System.Net.Http.dll
 --reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\Facades\System.Diagnostics.Tracing.dll
 --reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\Facades\System.Reflection.Primitives.dll
---resource:"C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\src\Core.Api\obj\Debug\dnx451\Core.Apidotnet-compile.deps.json",Core.Api.deps.json
-C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\src\Core.Api\Program.cs
-C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\src\Core.Api\Startup.cs
-C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\src\Core.Api\Controllers\ValuesController.cs
+--resource:"C:\Users\AlineHL\Desktop\AspNetCore\bootstrapAspNet\Core.Api\src\Core.Api\obj\Debug\dnx451\Core.Apidotnet-compile.deps.json",Core.Api.deps.json
+C:\Users\AlineHL\Desktop\AspNetCore\bootstrapAspNet\Core.Api\src\Core.Api\Program.cs
+C:\Users\AlineHL\Desktop\AspNetCore\bootstrapAspNet\Core.Api\src\Core.Api\Startup.cs
+C:\Users\AlineHL\Desktop\AspNetCore\bootstrapAspNet\Core.Api\src\Core.Api\Controllers\ValuesController.cs
+C:\Users\AlineHL\Desktop\AspNetCore\bootstrapAspNet\Core.Api\src\Core.Api\Utils\GlobalExceptionFilter.cs

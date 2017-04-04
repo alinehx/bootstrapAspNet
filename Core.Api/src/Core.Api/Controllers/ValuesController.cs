@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Core.Business;
 using Core.Data.Repositories;
 using Core.Interfaces.Data;
+using Microsoft.Extensions.Logging;
 
 namespace Core.Api.Controllers
 {
@@ -13,15 +14,18 @@ namespace Core.Api.Controllers
     public class ValuesController : Controller
     {
         private readonly IDatabase _idatabase;
-        public ValuesController(IDatabase database)
+        private readonly ILogger<ValuesController> _logger;
+        public ValuesController(IDatabase database, ILogger<ValuesController> logger)
         {
             _idatabase = database;
+            _logger = logger;
         }
         // GET api/values
         [HttpGet]
         public List<OrderRepository> Get()
         {
-            
+            throw new Exception("Erro teste");
+            _logger.LogInformation("Hello from Log!");
             OrderRepository orderRepository = new OrderRepository(_idatabase);
             Order order = new Order(orderRepository);
 

@@ -9,6 +9,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Core.Interfaces.Data;
 using Core.Data;
+using Serilog;
+using Core.Api.Utils;
 
 namespace Core.Api
 {
@@ -21,11 +23,18 @@ namespace Core.Api
                 .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
                 .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true);
 
+           
             if (env.IsEnvironment("Development"))
             {
                 // This will push telemetry data through Application Insights pipeline faster, allowing you to view results immediately.
                 builder.AddApplicationInsightsSettings(developerMode: true);
             }
+            Log.Logger = new LoggerConfiguration()
+                .MinimumLevel.Debug()
+                .Enrich.FromLogContext()
+                .WriteTo.Seq("http://localhost:5341")
+                .CreateLogger();
+
 
             builder.AddEnvironmentVariables();
             Configuration = builder.Build();
@@ -37,14 +46,18 @@ namespace Core.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddApplicationInsightsTelemetry(Configuration);
+            ILoggerFactory loggerFactory = new LoggerFactory();
 
-            services.AddMvc();
+            loggerFactory.AddSerilog();
 
+            
+            var mvcBuilder = services.AddMvc();
+            mvcBuilder.AddMvcOptions(_ => _.Filters.Add(new GlobalExceptionFilter(loggerFactory)));
+
+            services.AddSwaggerGen();
             services.AddApplicationInsightsTelemetry(Configuration);
-            services.AddScoped<IDatabase, OracleDB>();
+            services.AddTransient<IDatabase, OracleDB>();
 
-            //services.AddTransient(provider => Configuration);
-            //services.AddTransient<IDatabase, OracleDB>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline
@@ -57,7 +70,16 @@ namespace Core.Api
 
             app.UseApplicationInsightsExceptionTelemetry();
 
+             
+
             app.UseMvc();
+
+         
+            app.UseSwagger();
+            app.UseSwaggerUi();
+            loggerFactory.AddConsole(Configuration.GetSection("Logging"));
+            loggerFactory.AddDebug();
+            loggerFactory.AddSerilog();
         }
     }
 }

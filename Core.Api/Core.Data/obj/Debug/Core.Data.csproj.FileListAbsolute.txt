@@ -7,3 +7,12 @@ C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\Core.Data\bin\Debug\Core
 C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\Core.Data\obj\Debug\Core.Data.csprojResolveAssemblyReference.cache
 C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\Core.Data\obj\Debug\Core.Data.dll
 C:\Users\AlineHL\Desktop\CoreApplication\Teste\Core.Api\Core.Data\obj\Debug\Core.Data.pdb
+C:\Users\AlineHL\Desktop\AspNetCore\bootstrapAspNet\Core.Api\Core.Data\bin\Debug\Core.Data.dll.config
+C:\Users\AlineHL\Desktop\AspNetCore\bootstrapAspNet\Core.Api\Core.Data\bin\Debug\Core.Data.dll
+C:\Users\AlineHL\Desktop\AspNetCore\bootstrapAspNet\Core.Api\Core.Data\bin\Debug\Core.Data.pdb
+C:\Users\AlineHL\Desktop\AspNetCore\bootstrapAspNet\Core.Api\Core.Data\bin\Debug\Core.Interfaces.dll
+C:\Users\AlineHL\Desktop\AspNetCore\bootstrapAspNet\Core.Api\Core.Data\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\AlineHL\Desktop\AspNetCore\bootstrapAspNet\Core.Api\Core.Data\bin\Debug\Core.Interfaces.pdb
+C:\Users\AlineHL\Desktop\AspNetCore\bootstrapAspNet\Core.Api\Core.Data\obj\Debug\Core.Data.csprojResolveAssemblyReference.cache
+C:\Users\AlineHL\Desktop\AspNetCore\bootstrapAspNet\Core.Api\Core.Data\obj\Debug\Core.Data.dll
+C:\Users\AlineHL\Desktop\AspNetCore\bootstrapAspNet\Core.Api\Core.Data\obj\Debug\Core.Data.pdb
